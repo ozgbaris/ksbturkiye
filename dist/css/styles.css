@@ -1,3 +1,82 @@
+/* ── KSB Frutiger CE Font Tanımları ── */
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 45 Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 46 Light Italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 55 Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 56 Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 75 Black.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 76 Black Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Frutiger CE';
+  src: url('../assets/fonts/Frutiger CE 95 Ultra Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ── KSB Marka Renkleri ── */
+:root {
+  --ksb-red: #D0281A;
+  --ksb-red-dark: #A81F14;
+  --bs-primary: #D0281A;
+  --bs-primary-rgb: 208, 40, 26;
+  --bs-link-color: #D0281A;
+  --bs-link-hover-color: #A81F14;
+}
+
+/* ── Global Font Ataması ── */
+body {
+  font-family: 'Frutiger CE', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.btn {
+  font-family: 'Frutiger CE', 'Arial', sans-serif;
+}
+
+/* ── Bootstrap Primary Rengi Override ── */
+.btn-primary {
+  background-color: var(--ksb-red);
+  border-color: var(--ksb-red);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--ksb-red-dark);
+  border-color: var(--ksb-red-dark);
+}
+.navbar {
+  border-bottom: 3px solid var(--ksb-red);
+}
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Modern Business v5.0.7 (https://startbootstrap.com/template-overviews/modern-business)
