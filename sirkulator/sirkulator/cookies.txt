@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.sirkulator.com	TRUE	/	FALSE	1999999999	__cf_bm	opcZ0QhzfudX4.MXPVN_nAA1dbgu0txX2H24cM4D0Ew-1774764928-1.0.1.1-WVZOqWI1L9ieEcB4PwcokkGLK2nVSfLqz3SWP.PU7H16IUNhAdTb7rBzy4YKnov50VJGfewojYsDmNwh3DxAlH8PThBHHB7vSYjQwoDWFEM
+.sirkulator.com	TRUE	/	FALSE	1999999999	_cfuvid	a0GhSFJAoDQhy66NIagcfTZoikI1yxQuQP.TjXiJErQ-1774764928121-0.0.1.1-604800000
+sirkulator.com	TRUE	/	FALSE	1999999999	SameSite	None
+
